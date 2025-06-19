@@ -42,10 +42,9 @@ const Hero = () => {
             vars={{ delay: 1.7, duration: 1.1 }}
             className={"translate-y-5"}
           >
-            <Button
-              text={"shop now"}
-              styles={"border border-white text-white hover:bg-white/20"}
-            />
+            <Button styles={"border border-white text-white hover:bg-white/20"}>
+              shop now
+            </Button>
           </FadeIn>
         </div>
       )}

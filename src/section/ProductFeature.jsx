@@ -47,9 +47,10 @@ const ProductFeature = () => {
               <h3 className="font-display text-4xl">Ignis</h3>
               <p className="mt-2 text-gray-400">Eau de Parfum</p>
               <Button
-                text={"Buy Now"}
                 styles={"border border-white text-white hover:bg-white/20"}
-              />
+              >
+                Buy Now
+              </Button>
             </div>
             <p className="mt-4 text-gray-400">
               <span>$110</span>
