@@ -5,6 +5,7 @@ import FragranceList from "./section/FragranceList";
 import Hero from "./section/Hero";
 import ProductFeature from "./section/ProductFeature";
 import ScrollText from "./section/ScrollText";
+import YtVideo from "./section/YtVideo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProductFeature />
       <FragranceList />
       <CallToAction />
+      <YtVideo />
       <Footer />
     </>
   );
