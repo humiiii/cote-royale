@@ -2,6 +2,7 @@ import React from "react";
 import { Bounded } from "../components/Bounded";
 import FadeIn from "../components/FadeIn";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 const ProductFeature = () => {
   return (
@@ -49,7 +50,7 @@ const ProductFeature = () => {
               <Button
                 styles={"border border-white text-white hover:bg-white/20"}
               >
-                Buy Now
+                <Link to={`/cote-royale/fragrance/ignis`}>Shop Now</Link>
               </Button>
             </div>
             <p className="mt-4 text-gray-400">

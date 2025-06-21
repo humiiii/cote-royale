@@ -1,24 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
-import CallToAction from "./section/CallToAction";
-import FragranceList from "./section/FragranceList";
-import Hero from "./section/Hero";
-import ProductFeature from "./section/ProductFeature";
-import ScrollText from "./section/ScrollText";
-import YtVideo from "./section/YtVideo";
+import Home from "./pages/Home";
+import Fragrance from "./pages/Fragrance";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Hero />
-      <ScrollText />
-      <ProductFeature />
-      <FragranceList />
-      <CallToAction />
-      <YtVideo />
+      <Routes>
+        <Route path="/cote-royale" element={<Home />} />
+        <Route path="/cote-royale/fragrance/:name" element={<Fragrance />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 

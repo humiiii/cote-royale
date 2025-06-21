@@ -3,6 +3,7 @@ import FadeIn from "./FadeIn";
 import Button from "./Button";
 import FragranceAttribute from "./FragranceAttribute";
 import { PiPlus } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const FragranceDisplay = ({ title, desc, imgSrc, mood, scentProfile }) => {
   return (
@@ -21,7 +22,7 @@ const FragranceDisplay = ({ title, desc, imgSrc, mood, scentProfile }) => {
       </div>
       <FadeIn
         className={"relative z-10 grid translate-y-8"}
-        vars={{ delay: 3, delay: 0.8, start: "top 50%" }}
+        vars={{ duration: 3, delay: 0.8, start: "top 50%" }}
       >
         <h3 className="font-display mb-3 text-5xl md:text-6xl lg:text-7xl">
           {title}
@@ -39,7 +40,7 @@ const FragranceDisplay = ({ title, desc, imgSrc, mood, scentProfile }) => {
         />
         <div className="flex flex-wrap gap-4">
           <Button styles={"border border-white text-white hover:bg-white/20"}>
-            Discover
+            <Link to={`/cote-royale/fragrance/${title}`}>Discover</Link>
           </Button>
           <Button styles={"bg-white text-black hover:bg-white/80"}>
             <PiPlus /> &nbsp;Add to Bag
