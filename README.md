@@ -1,12 +1,67 @@
-# React + Vite
+# Côte Royale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end animated luxury fragrance website inspired by modern luxury design aesthetics.  
+Built using **React**, **Tailwind CSS**, and deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+## ✨ Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://humiiii.github.io/cote-royale/](https://humiiii.github.io/cote-royale/)
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Full-screen video hero section
+- Smooth page transitions
+- Fragrance detail pages with dynamic routing
+- Responsive and mobile-friendly layout
+- Tailwind-powered custom UI
+- Voice input & transliteration (via Indic API integration)
+- Modular component-based structure
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Prismic-inspired UI & animation techniques](https://prismic.io/courses/animated-luxury-website)
+- [GitHub Pages](https://pages.github.com/) for deployment
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/humiiii/cote-royale.git
+cd cote-royale
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Locally
+
+```bash
+npm run dev
+```
+
+### 4. Build for Production
+
+```bash
+npm run build
+```
+
+### 5. Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+> **Note:** Make sure `homepage` is correctly set in `package.json` and `base` is set in `vite.config.js`.
+
+## 🎓 Credits
+
+This project is inspired by Prismic's Animated Luxury Website Tutorial.  
+Big thanks to the team at Prismic for their wonderful educational resources.
