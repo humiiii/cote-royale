@@ -3,6 +3,7 @@ import { Bounded } from "../components/Bounded";
 import Button from "../components/Button";
 import FadeIn from "../components/FadeIn";
 import { RevealText } from "../components/RevealText";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
@@ -43,7 +44,7 @@ const Hero = () => {
             className={"translate-y-5"}
           >
             <Button styles={"border border-white text-white hover:bg-white/20"}>
-              shop now
+              <Link to={"/cote-royale/fragrance/ignis"}>shop now</Link>
             </Button>
           </FadeIn>
         </div>
