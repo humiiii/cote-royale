@@ -24,7 +24,7 @@ const FragranceDisplay = ({ title, desc, imgSrc, mood, scentProfile }) => {
         className={"relative z-10 grid translate-y-8"}
         vars={{ duration: 3, delay: 0.8, start: "top 50%" }}
       >
-        <h3 className="font-display mb-3 text-5xl md:text-6xl lg:text-7xl">
+        <h3 className="font-display mb-3 text-5xl capitalize md:text-6xl lg:text-7xl">
           {title}
         </h3>
         <p className="mb-8 text-base font-semibold text-gray-300">

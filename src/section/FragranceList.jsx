@@ -29,7 +29,7 @@ const FragranceList = () => {
         </p>
         <div className="mt-12 grid grid-cols-1 gap-12">
           <FragranceDisplay
-            title={"Terra"}
+            title={"terra"}
             desc={
               "Rooted in strength, Terra is a tribute to nature’s quiet power. Deep woods and herbal notes evoke the scent of earth after rain—calm, effort, Terra embodies the beauty of balance."
             }
@@ -38,7 +38,7 @@ const FragranceList = () => {
             scentProfile={"woody"}
           />
           <FragranceDisplay
-            title={"Aqua"}
+            title={"aqua"}
             desc={
               "Cool and invigorating, Aqua channels the untamed spirit of the ocean. Crisp aquatic notes flow over mineral woods, capturing the mystery of open water. As refreshing as a sea breeze yet as commanding as the tide, Aqua is for the man who moves with quiet strength."
             }
@@ -47,7 +47,7 @@ const FragranceList = () => {
             scentProfile={"fresh"}
           />
           <FragranceDisplay
-            title={"Ignis"}
+            title={"ignis"}
             desc={
               "Forged in fire, Ignis is a bold statement of power and poise. Smoldering spices and rich woods create an intense, magnetic presence. For the man whose quiet confidence speaks volumes, this fragrance captures fire’s raw allure—uncompromising and unforgettable."
             }
